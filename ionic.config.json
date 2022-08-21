@@ -1,0 +1,7 @@
+{
+  "name": "CGS",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
