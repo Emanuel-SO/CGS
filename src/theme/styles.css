@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+ion-toolbar {
+    --background: var(--ion-color-primary);
+    --color: var(--ion-color-secondary);
+}
+
+ion-content {
+    --background: var(--ion-color-secondary);
+}
+
+.tamano{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-top: 20%;
+    padding-bottom: 17%;
+}
+
+.tamano-logo{
+    display: block;
+    margin-left: 30%;
+    max-width:100%;
+    max-height:100%;
+}
+
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 80%;
+}
+
+.img-redes{
+    width: 45px;
+    height: 45px;
+}
+
+.btn-style{
+    --background: var(--ion-color-primary);
+    --color: var(--ion-color-secondary);
+}
+
+.container-botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.container-titulo{
+    color: var(--ion-color-primary);
+
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.container-galeria{
+    margin: 0;
+    padding: 0;
+}
+
+.img-gal{
+    width: 100%;
+}
+
+.row{
+    display:flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+@media (max-width: 800px) {
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column{
+        flex: 100%;
+    }
+}
+
+
+.login-img{
+    display: block;
+    margin: 10% auto;
+    width: 50%;
+    padding-top: 5%;
+}
+
+.login-container{
+    height: 60%;
+    margin: 10% 10%;
+    background-color: #E9DAC1;
+    border-radius: 2%;
+}
+
+.login-item{
+    padding: 10px
+}
+
+.login-btn{
+    padding: 0 10%;
+}
+
+.registro-title{
+    color:  var(--ion-color-primary);
+    padding-top:15%;
+}
+
+.menu-list{
+    background-color: #F7ECDE;
+}
+
+.menu-text{
+    color: var(--ion-color-primary);
+    font-weight: bold;
+}
